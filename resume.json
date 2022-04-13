@@ -1,110 +1,153 @@
 {
+  "titleNameMap": {
+    "educationList": "教育背景",
+    "workExpList": "工作经历",
+    "projectList": "项目经历",
+    "skillList": "个人技能",
+    "awardList": "更多信息",
+    "workList": "个人作品",
+    "aboutme": "自我介绍"
+  },
   "avatar": {
-    "src": "https://avatars.githubusercontent.com/u/15646325?v=4",
-    "hidden": false
+    "hidden": true,
+    "shape": "square"
   },
   "profile": {
-    "name": "廖晓娟 (新茗)",
-    "email": "736****86@qq.com",
-    "mobile": "156********",
-    "github": "https://github.com/visiky",
-    "zhihu": "https://www.zhihu.com/people/visiky",
-    "workExpYear": "",
-    "positionTitle": "数据可视化·前端工程师"
+    "name": "牛永飞",
+    "email": "niuyongfei@foxmail.com",
+    "mobile": "17600140710",
+    "github": "https://github.com/mz157589766",
+    "zhihu": "https://www.zhihu.com/people/YeV587",
+    "workExpYear": "6年Java开发",
+    "workPlace": "北京",
+    "positionTitle": "Java开发"
   },
   "educationList": [
     {
-      "edu_time": ["2014.09.01", "2018.06.30"],
-      "school": "华南理工大学",
-      "major": "网络工程",
-      "academic_degree": "本科"
+      "edu_time": "2011.09.01,2014.06.30",
+      "school": "晋美工商管理学院",
+      "major": "计算机应用专业",
+      "academic_degree": "本科",
+      "dataIndex": 0
+    },
+    {
+      "edu_time": "2019.09.01,2019.11.30",
+      "school": "PMP项目管理培训",
+      "major": ""
     }
   ],
-  "awardList": [
-    {
-      "award_info": "英语 CET6",
-      "award_time": "2015"
-    },
-    {
-      "award_info": "蚂蚁近卫军 卓越个人奖",
-      "award_time": "2018.09"
-    },
-    {
-      "award_info": "前端练习生 可视化讲师",
-      "award_time": "2020.10"
-    },
-    {
-      "award_info": "前端早早聊 分享 “如何构思和开发开箱即用的可视化图表库 G2Plot”",
-      "award_time": "2021.07"
-    }
-  ],
+  "awardList": [],
   "workExpList": [
     {
-      "company_name": "蚂蚁集团",
-      "department_name": "体验技术部",
-      "work_time": ["2018.06", null],
-      "work_desc": "1. 担任蚂蚁高管决策和管理协同产品 “数据作战室” 的前端负责人\r\n2. 负责蚂蚁敏捷 BI 产品 “DeepInsight” 的可视分析模块产品能力建设\n3. 数据可视化 AntV 团队核心成员，负责 G2、G2Plot 开源技术的建设"
+      "company_name": "中科软科技股份有限公司",
+      "department_name": "产品应用事业一部",
+      "work_time": "2015.10,2021.4",
+      "work_desc": "1.参与软件的设计负责系统需求的分析，进行系统设计和数据库设计及相应的文档撰写\n2.解决开发过程中技术问题和提供解决办法\n3.根据开发进度和任务分配，完成相应模块软件的设计、开发、编程任务\n4.负责项目组代码的审查工作，有效地控制项目的质量风险",
+      "dataIndex": 0
     },
     {
-      "company_name": "蚂蚁金服",
+      "company_name": "范式融通(北京)科技有限公司",
       "department_name": "大数据部",
-      "work_time": ["2017.06", "2017.12"],
-      "work_desc": "前端实习生。使用 React 参与开发多类产品：数据研发平台、数据决策平台、数据分析平台的研发工作，同时也参与大型 BI 产品的重构工作，有良好的编码习惯。"
+      "work_time": "2018.06,2018.10",
+      "work_desc": "1、完成项目经理下达编码任务\n2、功能设计，实现系统功能\n3、编码自测，系统功能测试\n4、缺陷修改，功能优化",
+      "dataIndex": 1
     },
     {
-      "company_name": "数沃信息科技有限公司",
-      "department_name": "",
-      "work_time": ["2017.03", "2017.05"],
-      "work_desc": "前端实习生。使用 Vue 来实现平台功能和逻辑，再用 ECharts 来对数据挖掘分析后的可视化结果进行展示"
+      "company_name": "深圳麦亚信科技股份有限公司（北京分公司）",
+      "department_name": "华北区-财险业务部",
+      "work_time": "2021.05,",
+      "work_desc": "1.参与软件的设计负责系统需求的分析，进行系统设计和数据库设计，功能开发及相应的文档撰写\n2.解决开发过程中技术问题和提供解决办法",
+      "dataIndex": 2
     }
   ],
   "skillList": [
     {
-      "skill_name": "HTML 和 CSS",
-      "skill_desc": "",
-      "skill_level": 89
+      "skill_name": "前端编程开发",
+      "skill_desc": "HTML、CSS、JavaScript、JQuery、Ajax等",
+      "skill_level": 90,
+      "dataIndex": 2
     },
     {
-      "skill_name": "TypeScript / JavaScript",
-      "skill_desc": "熟悉 TypeScript，丰富的 ts 项目经验",
-      "skill_level": 90
+      "skill_name": "前端框架使用",
+      "skill_desc": "Vue、Bootstrap、Layui",
+      "skill_level": 80,
+      "dataIndex": 3
     },
     {
-      "skill_name": "数据可视化",
-      "skill_desc": "丰富的可视化工程实践以及开源经验",
-      "skill_level": 90
+      "skill_name": "Weblogic、Tomcat编程",
+      "skill_desc": "熟练在Weblogic、Tomcat服务下编程，掌握Linux 操作系统，熟悉shell的使用",
+      "skill_level": 80,
+      "dataIndex": 0
     },
     {
-      "skill_name": "React / 前端工程化",
-      "skill_desc": "大型前端项目经验以及组件库开发经验",
-      "skill_level": 85
+      "skill_name": "SSH、SSM",
+      "skill_level": 90,
+      "dataIndex": 1,
+      "skill_desc": "熟练掌握Struts2、SpringMVC、Hibernate、Mybatis、Spring等企业级框架使用"
+    },
+    {
+      "skill_name": "数据库相关开发",
+      "skill_level": 80,
+      "skill_desc": "Oracle、MySql、SQLSe2rver数据库及非关系型数据库Neo4j、MongoDB"
+    },
+    {
+      "skill_name": "微服务相关技术",
+      "skill_level": 80,
+      "skill_desc": "SpringBoot、SpringCloud、Zookeeper，Dubbo分布式服务相关开发"
     }
   ],
   "projectList": [
     {
-      "project_name": "数据作战室",
+      "project_name": "人保财险 - 运营风险管理平台",
       "project_role": "前端负责人",
       "project_time": "2019.04 - 2020.06",
-      "project_desc": "面向总裁和高管以及决策 BI 的数字化经营决策和管理协同产品。提供一站式的数据化经营决策和管理协同功能，让高管高效获取决策信息，并提升管理效率。",
-      "project_content": "1. 项目从0到1的框架设计和开发 2. 产品体验精雕细琢的打磨 3. 建立稳定性保障机制。目前仍在迭代中，帮助提升高管业务决策效率"
+      "project_desc": "1、利用现有工作成果，基于“统一标准、统一视图”的指导思想，充分整合流程、内控、权责三大文档体系、共享和利用现有指标监控系统数据。以战略为中心、以流程为基础、以风险为导向，通过短期、中期和长期的逐步建设实施，持续提升公司风险管控能力。\n2、该系统使用的数据库是oracle，采用struts + hibernate + spring架构。\n为了管理上的方便，该系统中Struts和spring的配置文件采用多模块的集成方式完成，主要是按照功能模块分配",
+      "project_content": "1. 项目从0到1的框架设计和开发 2. 产品体验精雕细琢的打磨 3. 建立稳定性保障机制。目前仍在迭代中，帮助提升高管业务决策效率",
+      "dataIndex": 0,
+      "role": "Java开发"
     },
     {
-      "project_name": "DeepInsight",
+      "project_name": "人保集团 - 基层内控管理系统",
       "project_role": "可视分析负责人",
       "project_time": "2018.07 - 2019.04 / 2020.07 - 至今",
-      "project_desc": "DeepInsight 是蚂蚁集团自主研发的自助式 BI 数据洞察分析平台，面向企业分析人员、业务人员和开发人员，帮助蚂蚁集团实现精细化运营。",
-      "project_content": "BI 平台工具核心部分是报表制作，也就是通过数据连接、可视化配置形成图表物料之后，通过拖拽方式进行页面编排，最终形成报表页面进行发布的过程。\n1. 主导开放能力建设，拉通产品、设计建设和扩展可视化图形，提升丰富度\n2. 产品体验优化，尤其是对 ECharts 的体验顽疾进行攻克\n3. 主导可视化能力建设：业务标准化图表库建设(通用组件设计和开发经验丰富)、促进数据分析能力增强等可视化一体化建设"
+      "project_desc": "为确保各保险子公司有效运行基层内控闭环管理机制，保证集团公司及子公司能及时、全面掌握情况并督导强化基层内控建设，集团拟搭建联通集团、总、省、地市和县支5级机构的基层内控管理系统，使集团能够把握内控建设全貌，子公司能够依托系统实现更新发布内控管理要求、在线评价及检查验收，基层机构能够实现在线自评及定级、文档上传和存储，促进基层经营管理效率提升。\n      主要功能包括信息公告、工作任务管理、举措库管理、框架管理、统计结果查看、资料库管理、系统管理。",
+      "project_content": "BI 平台工具核心部分是报表制作，也就是通过数据连接、可视化配置形成图表物料之后，通过拖拽方式进行页面编排，最终形成报表页面进行发布的过程。\n1. 主导开放能力建设，拉通产品、设计建设和扩展可视化图形，提升丰富度\n2. 产品体验优化，尤其是对 ECharts 的体验顽疾进行攻克\n3. 主导可视化能力建设：业务标准化图表库建设(通用组件设计和开发经验丰富)、促进数据分析能力增强等可视化一体化建设",
+      "dataIndex": 1,
+      "role": "Java开发"
     },
     {
-      "project_name": "G2、G2Plot",
+      "project_name": "灵犀数据智能平台",
       "project_role": "核心开发者",
       "project_time": "2019 - 至今",
-      "project_desc": "G2 是基于图形语法理论的可视化渲染引擎，G2Plot 是在 G2 基础上封装的开箱即用的统计可视化图表库",
-      "project_content": "AntV 可视化建设，赋能整个蚂蚁和阿里集团统计可视化分析相关业务。负责 AntV 系列: AntV 官网、G 渲染引擎、 G2、G2Plot、ThemeSet 主题构建器等开源项目的研发工作。"
+      "project_desc": "一站式大数据管理服务平台，快速构建企业数据湖与智能化应用生态的能力服务体系。\n提供企业级数据采集转换、数据存储计算、数据质量治理、数据资产管理、数据智能应用等大数据全技术栈的解决方案，具有使用简便、运行高效、易于扩展、安全可靠的产品特点，助力企业快速实现海量业务数据的融合，挖掘隐藏在数据背后的巨大商业价值，为企业数据资产向业务洞察和商业价值的转换。\n      主要功能包括总览，数据工厂，数据稽核，任务调度，元数管理，数据资产，系统管理。",
+      "project_content": "AntV 可视化建设，赋能整个蚂蚁和阿里集团统计可视化分析相关业务。负责 AntV 系列: AntV 官网、G 渲染引擎、 G2、G2Plot、ThemeSet 主题构建器等开源项目的研发工作。",
+      "dataIndex": 2,
+      "role": "Java开发"
+    },
+    {
+      "project_name": "人保财险 理赔稽查项目",
+      "role": "Java开发",
+      "project_desc": "OFR理赔未决案件稽查系统的构建要适应理赔业务流程中的主要业务环节，OFR系统涉及的理赔业务环节包括报案、查勘、立案、定损、核损、人伤跟踪、医疗审核、理算、核赔环节，对于包括欺诈、理赔漏损在内的各类风险的有效管控。\nOFR系统将更好的实现业务决策和风险管控的快速反应，提供快速有效地过程管控，加强理赔管理中的风险管控能力，多方位提升理赔质量",
+      "dataIndex": 3
+    },
+    {
+      "project_name": "阳光保险-统一影像平台",
+      "project_role": "Java开发",
+      "project_desc": "统一影像平台为包括理赔、承保及其他业务系统提供影像上传、影像查看、影像同步等功能。主要功能如下\n1、系统后台支持业务管理、运营管理、云存储管理、授权管理、系统管理等功能；\n2、支持多文件格式上传，包括：word 、PPT、视频等，但单个文件最大不超过                  5M（文件大小限制，后期会优化） ；\n3、支持影像的移动、归类；\n4、对影像业务结构表中各项目上传单证数量进行限制；\n5、查看已上传的视频文件\n6、可查看已删除文件；\n7、支持电脑摄像头或者精拍仪拍摄；\n8、影像共享；\n9、照片对比功能。"
     }
   ],
-  "workList": [],
+  "workList": [
+    {
+      "work_name": "星收卡平台",
+      "work_desc": "1.负责软件的设计负责系统需求的分析，功能开发，进行系统设计和数据库设计，功能开发及相应的文档撰写2.解决开发过程中技术问题和提供解决办法",
+      "visit_link": "ye2zy.work"
+    }
+  ],
   "aboutme": {
-    "aboutme_desc": "🌱 Focus on data visualization and analysis\n😈 能力项：沟通协调能力、执行力\n自驱型前端工程师，三年多大型复杂产品开发经验，负责蚂蚁集团 BI 产品 DeepInsight 的可视化建设，参与了从图表库到 BI 产品力的一体化建设，对商业智能领域的数据可视化建设有较为丰富的经验。\n参与 AntV 团队开源项目 G2、G2Plot 的研发，目前是 G2Plot 的主要负责人。"
+    "aboutme_desc": "1、热爱软件事业，对IT领域的软件开发和设计工作有浓厚的兴趣\n2、具有良好的编码规范《阿里巴巴Java开发手册(正式版)》\n3、思路清晰，有独立分析解决问题的能力\n4、擅长独立思考，解决团队遇到的问题\n5、良好的团队合作精神\n6、有较强的学习创新能力，在对新技术的掌握方面保持与时俱进\n为人诚信，思维严谨，工作积极主动，能承受一定的工作压力"
+  },
+  "theme": {
+    "color": "#2f5785",
+    "tagColor": "#8bc34a"
   }
 }
